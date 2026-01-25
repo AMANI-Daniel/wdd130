@@ -50,7 +50,7 @@ h1{
 }
 h2{
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
     text-align: center;
 
 }
@@ -66,5 +66,5 @@ h2{
     width: 125px;
 }
 footer{
-    border-top: 1px solid grey;
+    border-top: 1px solid var(--secondary-color);
 }
