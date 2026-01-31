@@ -91,7 +91,8 @@ footer {
 
 .grid {
     display: grid;
-    grid-template-columns: auto 300px;
+    grid-template-columns: auto 340px;
+    /*I can Check the instructions from the code along in canvas and these commented lines.*/
     /* align-items: center; */
 }
 
