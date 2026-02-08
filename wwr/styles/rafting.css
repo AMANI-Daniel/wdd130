@@ -157,7 +157,6 @@ h2 {
 }
 
 figcaption {
-    grid-row: 2/3;
     justify-self: center;
 }
 
