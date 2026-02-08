@@ -167,5 +167,6 @@ footer {
     grid-template-columns: 600px 250px;
     grid-gap: 20px;
     align-items: center;
+    background-color: rgb(222, 235, 198);
 
 }
