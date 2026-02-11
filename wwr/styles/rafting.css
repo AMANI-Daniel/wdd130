@@ -67,7 +67,6 @@ footer {
 }
 
 h1 h2 {
-    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -170,8 +169,7 @@ figcaption {
     margin: 5px;
     padding: 5px;
     text-align: center;
-    font-size: 1.3rem;
-    font-weight: 1.5rem;
+    font-size: 1.1rem;
 
 }
 
@@ -253,6 +251,7 @@ button:hover {
 
 .arac-employee {
     background-color: rgb(241, 241, 199);
+    position: relative;
 }
 
 .employees {
@@ -269,15 +268,17 @@ button:hover {
 .employees img {
     width: 200px;
     height: 130px;
+    margin-top: 30px;
 }
 
-.arac-employee p {
-    color: #000;
-    font-size: 1.7rem;
-    margin: 0;
+.arac-employee h1 {
+    opacity: 1.3;
     padding: 0;
-    font-weight: bold;
     text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
 }
 
 footer {
