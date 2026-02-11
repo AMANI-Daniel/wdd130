@@ -26,7 +26,7 @@ header {
     margin: 1rem;
     background-color: rgb(247, 247, 172);
 
-    border: 1px solid #333;
+    border: 3px solid #979696;
 
 }
 
@@ -158,6 +158,117 @@ h2 {
 
 figcaption {
     justify-self: center;
+    font-size: 1.1rem;
+}
+
+/*This is the CSS for the contact.html*/
+.contact {
+    background-color: rgb(148, 233, 155);
+}
+
+.contact p {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 1.5rem;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 0;
+    gap: 15px;
+    background-color: rgb(243, 242, 242);
+    padding: 5px;
+
+}
+
+iframe {
+    width: 350px;
+    height: 400px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+    width: 400px
+}
+
+input,
+button,
+textarea {
+    padding: .5rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+input[type="checkbox"],
+[type="radio"] {
+    width: 20px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.purpose-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.purpose-options label {
+    padding: 5px;
+}
+
+button {
+    background-color: var(--accent1-color);
+    color: #fff;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 5px;
+    border: none;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.2s ease, z-index 0s;
+}
+
+button:hover {
+    z-index: 10;
+    background-color: rgb(44, 68, 44);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.arac-employee {
+    background-color: rgb(241, 241, 199);
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 40px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.employees img {
+    width: 200px;
+    height: 130px;
 }
 
 footer {
