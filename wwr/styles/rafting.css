@@ -1,20 +1,20 @@
 :root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
-    --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --primary-color: rgb(5 90 5);
+    --secondary-color: rgb(244, 162, 97);
+    --accent1-color: rgb(38 70 83);
+    --accent2-color: rgb(233 196 106);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --white: #ffff;
+    --white: rgb(255 255 255);
     --whitesmoke: rgb(247, 247, 172);
-    --border-color: #979696;
-    --black: #000;
+    --border-color: rgb(122, 115, 115);
+    --black: rgb(0 0 0);
     --greenwhite: rgb(148, 233, 155);
     --greenblack: rgb(44, 68, 44);
     --white1: rgb(241, 241, 199);
     --white2: rgb(222, 235, 198);
     --bluewhite: rgb(78, 136, 212);
-    --greyblack: #333;
+    --greyblack: rgb(46, 45, 45);
 }
 
 * {
