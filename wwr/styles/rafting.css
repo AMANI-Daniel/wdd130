@@ -336,16 +336,52 @@ fieldset{
 .addition{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 10px 0;
+    gap: 35px;
+    margin: 5px 0;
+    padding: 20px 0;
     
 }
-
+.addition figcaption{
+    color: var(--white);
+    font-size: 1.5rem;
+}
 .addition-cont p{
     font-size: 20px;
     margin: 0;
     text-align: center;
+    color: var(--white)
 }
+.addition-cont{
+    background-color: var(--accent1-color);
+    
+    border-radius: 15px;
+    padding: 20px;
+}
+/*This is the CSS for the trips.html*/
+.addition-cont img{
+    width: 350px;
+    height: 200px;
+}
+#first{
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid var(--border-color); 
+    border-collapse: collapse;
+}
+tr, td, th{
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    font-size: 1.2rem;
+    
+}
+.show{
+    background-color: var(--greenblack);
+    color: var(--white);
+}
+
 footer {
     border-top: 1px solid var(--secondary-color);
     display: grid;
