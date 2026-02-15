@@ -25,7 +25,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    /* color: var(--accent1-color); */
 }
 
 header {
@@ -284,7 +284,6 @@ button:hover {
 
 .arac-employee h1 {
     opacity: 1;
-    background-color: none;
     padding: 0;
     color: var(--black);
     text-align: center;
