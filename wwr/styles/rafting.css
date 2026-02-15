@@ -5,6 +5,16 @@
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --white: #ffff;
+    --whitesmoke: rgb(247, 247, 172);
+    --border-color: #979696;
+    --black: #000;
+    --greenwhite: rgb(148, 233, 155);
+    --greenblack: rgb(44, 68, 44);
+    --white1: rgb(241, 241, 199);
+    --white2: rgb(222, 235, 198);
+    --bluewhite: rgb(78, 136, 212);
+    --greyblack: #333;
 }
 
 * {
@@ -24,9 +34,9 @@ header {
     grid-template-columns: 250px 1fr;
     align-items: center;
     margin: 1rem;
-    background-color: rgb(247, 247, 172);
+    background-color: var(--whitesmoke);
 
-    border: 3px solid #979696;
+    border: 3px solid var(--border-color);
 
 }
 
@@ -48,7 +58,7 @@ header img {
 .navigation a {
     text-decoration: none;
     padding: 10px 1rem;
-    color: rgb(78, 136, 212);
+    color: var(--bluewhite);
     font-size: 1.5rem;
     font-weight: bold;
 
@@ -105,7 +115,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--white);
 }
 
 h2 {
@@ -119,7 +129,7 @@ h2 {
     position: absolute;
     bottom: 200px;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--white);
     opacity: 0.8;
 }
 
@@ -162,7 +172,7 @@ figcaption {
 
 /*This is the CSS for the contact.html*/
 .contact {
-    background-color: rgb(148, 233, 155);
+    background-color: var(--greenwhite);
 }
 
 .contact p {
@@ -178,7 +188,7 @@ figcaption {
     grid-template-columns: 1fr 2fr;
     margin: 10px 0;
     gap: 15px;
-    background-color: rgb(243, 242, 242);
+    background-color: var(--white1);
     padding: 5px;
 
 }
@@ -200,7 +210,7 @@ button,
 textarea {
     padding: .5rem;
     font-size: 1rem;
-    border: 1px solid #333;
+    border: 1px solid var(--greyblack);
     border-radius: 5px;
 }
 
@@ -231,7 +241,7 @@ input[type="checkbox"],
 
 button {
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--white);
     font-size: 1.3rem;
     font-style: italic;
     margin-top: 5px;
@@ -244,15 +254,15 @@ button {
 
 button:hover {
     z-index: 10;
-    background-color: rgb(44, 68, 44);
+    background-color: var(--greenblack);
     transform: scale(1.05);
     cursor: pointer;
 }
 
 .arac-employee {
-    background-color: rgb(241, 241, 199);
+    background-color: var(--white1);
     position: relative;
-    border: 3px solid #979696;
+    border: 3px solid var(--border-color);
 }
 
 .employees {
@@ -276,7 +286,7 @@ button:hover {
     opacity: 1;
     background-color: none;
     padding: 0;
-    color: #000;
+    color: var(--black);
     text-align: center;
     position: absolute;
     width: 100%;
@@ -290,6 +300,6 @@ footer {
     grid-template-columns: 600px 250px;
     grid-gap: 20px;
     align-items: center;
-    background-color: rgb(222, 235, 198);
+    background-color: var(--white2);
 
 }
